@@ -1,0 +1,42 @@
+# --- Python / backend -------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Environment / secrets ----------------------------------------------
+.env
+*.env.local
+
+# --- Node / frontend -----------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Data (large / real datasets should never be committed) -------------
+backend/data/twcs.csv
+backend/data/full_processed.csv
+
+# --- Evaluation outputs (generated, not source) ---------------------------
+evaluation/predictions.csv
+evaluation/judge_results.csv
+evaluation/human_scores.csv
+
+# --- OS / editor -----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
